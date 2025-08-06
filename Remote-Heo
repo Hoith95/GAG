@@ -1,1 +1,2 @@
+_G.GAGDone = true
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Hoith95/Pet-99/main/LookFPS-X3"))()
