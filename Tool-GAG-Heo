@@ -1,4 +1,5 @@
 _G.script1Done = true
+_G.GAGDone = true
 
 spawn(function()
     while true do
