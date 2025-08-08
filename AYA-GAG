@@ -4,15 +4,15 @@ getgenv().ConfigsKaitun = {
 	["Block Pet Gift"] = false,
 
 	Collect_Cooldown = 368, -- cooldown to collect fruit
-	JustFuckingCollectAll = true, -- Collect all (fruit not wait mutation)
+	JustFuckingCollectAll = false, -- Collect all (fruit not wait mutation)
 
 	["Low Cpu"] = true,
 	["Auto Rejoin"] = true,
 
 	["Rejoin When Update"] = false,
 	["Limit Tree"] = {
-		["Limit"] = 283,
-		["Destroy Untill"] = 268,
+		["Limit"] = 183,
+		["Destroy Untill"] = 168,
 
 		["Safe Tree"] = {
 			"Moon Blossom",
