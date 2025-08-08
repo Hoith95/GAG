@@ -31,7 +31,7 @@ getgenv().gagConfig = {
     KEEP_PETS_AGE = { ["Starfish"] = 75 },
 
     EQUIP_PETS = { "Dog", "Bunny", "Bald Eagle", ["Rooster"] = 2, ["Blood Kiwi"] = 2, ["Capybara"] = 1, ["Starfish"] = 1, ["Chicken"] = 2 },
-    USE_PETS_FOR_UPGRADE_SLOT = { "Dog", "Bunny" },
+    USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara", "Dog", "Bunny" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish", "Dog", "Bunny" },  -- Unequip from garden
 
     BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket" },
