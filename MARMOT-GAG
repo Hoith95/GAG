@@ -1,7 +1,6 @@
 getgenv().gagConfig = {
     -- Event:
     CRAFT_EVENT = { "Anti Bee Egg" },
-    GET_HONEY = true,  -- It will save all pollinated mutation until honey merchant arrives
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     
     -- General:
