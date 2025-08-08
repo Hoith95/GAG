@@ -3,5 +3,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Hoith95/Pet-99/main/L
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Hoith95/GAG/main/VAR-RESET"))()
 
 spawn(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Hoith95/GAG/main/DEL-MAPS"))()
+--loadstring(game:HttpGet("https://raw.githubusercontent.com/Hoith95/GAG/main/DEL-MAPS"))()
 end)
