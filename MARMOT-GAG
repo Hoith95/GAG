@@ -2,7 +2,7 @@ getgenv().gagConfig = {
     -- Event:
     CRAFT_EVENT = { "Anti Bee Egg" },
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    CLAIM_FOOD_CONNOISSEUR_REWARD = { "Culinarian Chest", "Gourmet Egg", "Gorilla Chef", "Gourmet Seed Pack", "Sunny-Side Chicken", "Pet Shard Aromatic", "Cooking Cauldron" },
+    CLAIM_FOOD_CONNOISSEUR_REWARD = { "Culinarian Chest", "Gourmet Egg", "Sunny-Side Chicken", "Pet Shard Aromatic", "Cooking Cauldron" },
 
     -- General:
     AUTO_UPDATE_RESTART = true,
