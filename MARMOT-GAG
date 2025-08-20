@@ -4,6 +4,7 @@ getgenv().gagConfig = {
     GET_HONEY = true,
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     BUY_EVENT_SHOP = { "Sprout Egg" },
+    CLAIM_FOOD_CONNOISSEUR_REWARD = {"Culinarian Chest", "Gourmet Egg", "Sunny-Side Chicken"},
     PLANT_EVENT_TREES = false,
 
     -- General:
