@@ -39,7 +39,7 @@ getgenv().gagConfig = {
     KEEP_PETS_WEIGHT = 7,
     KEEP_PETS_AGE = 90,
 
-    EQUIP_PETS = { ["Sunny-Side Chicken"] = 1, ["Capybara"] = 1, ["Starfish"] = 2, ["Spriggan"] = 2, "Bald Eagle", ["Rooster"] = 2, ["Blood Kiwi"] = 2 },
+    EQUIP_PETS = { ["Sunny-Side Chicken"] = 1, ["Chicken Zombie"] = 1, ["Starfish"] = 2, ["Capybara"] = 1, ["Spriggan"] = 2, "Bald Eagle", ["Rooster"] = 2, ["Blood Kiwi"] = 2 },
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara", "Dog", "Bunny", "Gorilla Chef", "Spriggan" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish", "Dog", "Bunny", "Gorilla Chef", "Spriggan" },  -- Unequip from garden
 
