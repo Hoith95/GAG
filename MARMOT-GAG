@@ -31,9 +31,9 @@ getgenv().gagConfig = {
     KEEP_PETS = { "Gnome", "Griffin", "Golden Goose", "Spriggan", "Junkbot", "Gorilla Chef", "Lobster Thermidor", "French Fry Ferret", "Mochi Mouse", "Corrupted Kitsune", "Raiju", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Seal", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Pack Bee", "Petal Bee", "Bear Bee", "Hamster", "Blood Owl", "Cooked Owl", "Golden Bee", "Owl", "Firefly", "Chicken Zombie", ["Kodama"] = 6, ["Corrupted Kodama"] = 6, ["Blood Kiwi"] = 2, ["Capybara"] = 1, ["Starfish"] = 2, ["Rooster"] = 2, ["Sunny-Side Chicken"] = 2, ["Tanchozuru"] = 5, ["Kappa"] = 5 },
     KEEP_PETS_WEIGHT = 7,
     KEEP_PETS_AGE = 90,
-    EQUIP_PETS = { ["Sunny-Side Chicken"] = 1, ["Chicken Zombie"] = 1, ["Starfish"] = 2, ["Capybara"] = 1, ["Spriggan"] = 2, "Bald Eagle", ["Rooster"] = 2, ["Blood Kiwi"] = 2 },
-    USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara", "Dog", "Bunny", "Gorilla Chef", "Spriggan" },
-    REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish", "Dog", "Bunny", "Gorilla Chef", "Spriggan" },  -- Unequip from garden
+    EQUIP_PETS = { ["Sunny-Side Chicken"] = 1, ["Chicken Zombie"] = 1, ["Starfish"] = 2, ["Capybara"] = 1, ["Spriggan"] = 1, ["Gnome"] = 1, "Bald Eagle", ["Rooster"] = 2, ["Blood Kiwi"] = 2 },
+    USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara", "Dog", "Bunny", "Gorilla Chef", "Spriggan", "Gnome" },
+    REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish", "Dog", "Bunny", "Gorilla Chef", "Spriggan", "Gnome" },  -- Unequip from garden
     BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket" },
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Grandmaster Sprinkler" },
     PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1379102152995246183/gPq8eaiHkIpOynlBvcQaPaXa9sycucZJJSope7VrOVrzxfry2SEVmmXx6V3wj7HqoPaG",
