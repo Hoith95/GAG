@@ -44,5 +44,9 @@ getgenv().gagConfig = {
     WEBHOOK_NOTE = "PC HEO",
     SHOW_WEBHOOK_USERNAME = true,
     SHOW_WEBHOOK_JOBID = true,
+
+    KICK_AFTER_GIFT_PET = false,
+    GIFT_USERNAME = { "ss6heo", "ss7heo", "ss8heo", "ss9heo", "ss10heo" },
+    GIFT_PET = { "Griffin", "Golden Goose", "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Raiju", "Mizuchi", "Bald Eagle", "Koi", "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Brontosaurus", "T-Rex", "Ankylosaurus", "Spinosaurus" },
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/6cb882027ef5de19462b160764dcfb53.lua"))()
