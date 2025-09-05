@@ -52,7 +52,7 @@ getgenv().gagConfig = {
     ["Glimmering Sprite"] = 2,
     },
 
-    USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara", "Dog", "Bunny", "Gorilla Chef", "Spriggan", "Gnome", "Rooster" },
+    USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara", "Dog", "Bunny", "Gorilla Chef", "Spriggan", "Gnome", "Rooster", "Glimmering Sprite" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish", "Dog", "Bunny", "Gorilla Chef", "Spriggan", "Gnome" },  -- Unequip from garden
 
     BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket", "Watering Can" },
