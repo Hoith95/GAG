@@ -74,7 +74,7 @@ getgenv().gagConfig = {
     SHOW_WEBHOOK_JOBID = true,
 
     KICK_AFTER_GIFT_PET = false,
-    GIFT_USERNAME = { "ss6heo", "ss7heo", "ss8heo", "ss9heo", "ss10heo" },
+    GIFT_USERNAME = { "ss1heo", "ss2heo", "ss3heo", "ss4heo", "ss5heo", "ss6heo", "ss7heo", "ss8heo", "ss9heo", "ss10heo", "ss12heo", "ss13heo", "ss14heo", "ss15heo" },
     GIFT_PET = { "Phoenix", "Drake", "Cockatrice", "Griffin", "Golden Goose", "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Raiju", "Mizuchi", "Bald Eagle", "Koi", "Kitsune", 
     "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Brontosaurus", "T-Rex", "Ankylosaurus", 
     "Spinosaurus" },
