@@ -75,7 +75,7 @@ getgenv().gagConfig = {
 
     KICK_AFTER_GIFT_PET = false,
     GIFT_USERNAME = { "ss6heo", "ss7heo", "ss8heo", "ss9heo", "ss10heo" },
-    GIFT_PET = { "Griffin", "Golden Goose", "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Raiju", "Mizuchi", "Bald Eagle", "Koi", "Kitsune", 
+    GIFT_PET = { "Phoenix", "Drake", "Cockatrice", "Griffin", "Golden Goose", "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Raiju", "Mizuchi", "Bald Eagle", "Koi", "Kitsune", 
     "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Brontosaurus", "T-Rex", "Ankylosaurus", 
     "Spinosaurus" },
 }
