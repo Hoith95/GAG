@@ -1,11 +1,9 @@
 getgenv().gagConfig = {
     -- Event:
     GET_HONEY = false,
-    CRAFT_EVENT = { "Fairy Net", "Enchanted Chest", "Anti Bee Egg", "Mutation Spray Glimmering" },
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = {"Enchanted Chest", "Luminous Sprite", "Drake" },
+    BUY_EVENT_SHOP = { "Marmot", "Fall Egg", "Golden Acorn", "Sugar Glider", "Space Squirrel" },
 
-    CLAIM_FAIRY_REWARD = { "Mutation Spray Glimmering", "Enchanted Egg", "Enchanted Seed Pack", "FairyPoints" },
     PLACE_COSMETIC = { "Cooking Kit" },
     PLANT_EVENT_TREES = true,
 
@@ -25,7 +23,7 @@ getgenv().gagConfig = {
     ["Watermelon"] = 5, ["Pepper"] = 5 },
 
     BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
-    PLANT_EGGS = { "Enchanted Egg", "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Bee Egg", 
+    PLANT_EGGS = { "Fall Egg", "Enchanted Egg", "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Bee Egg", 
     "Night Egg", "Bug Egg", "Paradise Egg", "Mythical Egg", "Common Summer Egg", "Rare Summer Egg", "Rare Egg", },
 
     BUY_SEED_SHOP = { "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango",
@@ -37,12 +35,12 @@ getgenv().gagConfig = {
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = { "Phoenix", "Drake", "Wisp", "Luminous Sprite", "Cockatrice", ["Glimmering Sprite"] = 8, "Gnome", "Griffin", "Golden Goose", "Spriggan",
-    "Junkbot", "Gorilla Chef", "Lobster Thermidor", "French Fry Ferret", "Mochi Mouse", "Corrupted Kitsune", "Raiju", "Mizuchi", "Kitsune", "Koi", "Bald Eagle",
-    "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Seal", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly",
-    "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Pack Bee", "Petal Bee", "Bear Bee", "Hamster", "Blood Owl", "Cooked Owl", "Golden Bee", "Owl", "Firefly",
-    "Chicken Zombie", ["Kodama"] = 6, ["Corrupted Kodama"] = 6, ["Blood Kiwi"] = 2, ["Capybara"] = 1, ["Starfish"] = 20, ["Rooster"] = 2, ["Tanchozuru"] = 5,
-    ["Kappa"] = 5 },
+    KEEP_PETS = { "Barn Owl", "Swan", "Marmot", "Space Squirrel", "Sugar Glider", "Phoenix", "Drake", "Wisp", "Luminous Sprite", "Cockatrice", ["Glimmering Sprite"] = 8,
+    "Gnome", "Griffin", "Golden Goose", "Spriggan", "Junkbot", "Gorilla Chef", "Lobster Thermidor", "French Fry Ferret", "Mochi Mouse", "Corrupted Kitsune", "Raiju",
+    "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Seal", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", 
+    "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Pack Bee", "Petal Bee", "Bear Bee", "Hamster", "Blood Owl", "Cooked Owl", 
+    "Golden Bee", "Owl", "Firefly", "Chicken Zombie", ["Kodama"] = 6, ["Corrupted Kodama"] = 6, ["Blood Kiwi"] = 2, ["Capybara"] = 1, ["Starfish"] = 20, ["Rooster"] = 2,
+    ["Tanchozuru"] = 5, ["Kappa"] = 5 },
     KEEP_PETS_WEIGHT = 5,
     KEEP_PETS_AGE = 90,
 
@@ -66,8 +64,8 @@ getgenv().gagConfig = {
     PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1379102152995246183/gPq8eaiHkIpOynlBvcQaPaXa9sycucZJJSope7VrOVrzxfry2SEVmmXx6V3wj7HqoPaG",
     SEED_WEBHOOK_URL = "https://discord.com/api/webhooks/1402693135859056802/qTvkhz406qrR14x6Vr58YQPGLJ7ZRsaWqPioOCKXYeI1RFYYZeLtMUkQqBnvYnpnvBUs", 
 
-    NOTIFY_PETS = { "Luminous Sprite", "Phoenix", "Cockatrice", "Griffin", "Golden Goose", "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Raiju",
-    "Mizuchi", "Bald Eagle", "Koi", "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus",
+    NOTIFY_PETS = { "Swan", "Luminous Sprite", "Phoenix", "Cockatrice", "Griffin", "Golden Goose", "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", 
+    "Raiju", "Mizuchi", "Bald Eagle", "Koi", "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus",
     "Brontosaurus", "T-Rex", "Ankylosaurus", "Spinosaurus" },
     NOTIFY_PETS_WEIGHT = 7,
     DISCORD_ID = "344054115539615745",
@@ -77,7 +75,8 @@ getgenv().gagConfig = {
 
     KICK_AFTER_GIFT_PET = false,
     GIFT_USERNAME = { "ss1heo", "ss2heo", "ss3heo", "ss4heo", "ss5heo", "ss6heo", "ss7heo", "ss8heo", "ss9heo", "ss10heo", "ss12heo", "ss13heo", "ss14heo", "ss15heo" },
-    GIFT_PET = { "Phoenix", "Drake", "Luminous Sprite", "Cockatrice", "Griffin", "Golden Goose", "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Raiju", "Mizuchi", "Bald Eagle",
-    "Koi", "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Brontosaurus", "T-Rex", "Ankylosaurus", "Spinosaurus" },
+    GIFT_PET = { "Phoenix", "Drake", "Luminous Sprite", "Cockatrice", "Griffin", "Golden Goose", "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Raiju",
+    "Mizuchi", "Bald Eagle", "Koi", "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Brontosaurus",
+    "T-Rex", "Ankylosaurus", "Spinosaurus" },
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/6cb882027ef5de19462b160764dcfb53.lua"))()
