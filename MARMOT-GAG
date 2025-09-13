@@ -16,6 +16,8 @@ getgenv().gagConfig = {
     ADD_FRIEND = true,
     OPEN_ALL_SEED_PACK = true,
 
+    BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
+
     MAX_PLANTS = 283,
     DESTROY_UNTIL_MIN_PLANTS = 268,
     DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple" },
