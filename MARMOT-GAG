@@ -5,7 +5,7 @@ getgenv().gagConfig = {
     BUY_EVENT_SHOP = { "Fall Egg", "Golden Acorn" },
 
     PLACE_COSMETIC = { "Cooking Kit" },
-    PLANT_EVENT_TREES = true,
+    PLANT_EVENT_TREES = false,
 
     -- General:
     AUTO_UPDATE_RESTART = true,
@@ -18,8 +18,8 @@ getgenv().gagConfig = {
 
     BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
 
-    MAX_PLANTS = 283,
-    DESTROY_UNTIL_MIN_PLANTS = 268,
+    MAX_PLANTS = 100,
+    DESTROY_UNTIL_MIN_PLANTS = 83,
     DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple" },
     LIMIT_PLANT_SEED = { ["Strawberry"] = 5, ["Blueberry"] = 5, ["Apple"] = 5, ["Tomato"] = 5, ["Corn"] = 5, ["Bamboo"] = 5, ["Coconut"] = 5, ["Pumpkin"] = 5, 
     ["Watermelon"] = 5, ["Pepper"] = 5 },
