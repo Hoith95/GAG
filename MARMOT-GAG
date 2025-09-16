@@ -5,7 +5,7 @@ getgenv().gagConfig = {
     BUY_EVENT_SHOP = { "Fall Egg", "Golden Acorn" },
 
     PLACE_COSMETIC = { "Cooking Kit" },
-    PLANT_EVENT_TREES = false,
+    PLANT_EVENT_TREES = true,
 
     -- General:
     AUTO_UPDATE_RESTART = true,
