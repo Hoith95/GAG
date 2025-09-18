@@ -18,11 +18,10 @@ getgenv().gagConfig = {
 
     BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
 
-    MAX_PLANTS = 100,
-    DESTROY_UNTIL_MIN_PLANTS = 83,
+    MAX_PLANTS = 120,
+    DESTROY_UNTIL_MIN_PLANTS = 99,
     DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple" },
-    LIMIT_PLANT_SEED = { ["Strawberry"] = 5, ["Blueberry"] = 5, ["Apple"] = 5, ["Tomato"] = 5, ["Corn"] = 5, ["Bamboo"] = 5, ["Coconut"] = 5, ["Pumpkin"] = 5, 
-    ["Watermelon"] = 5, ["Pepper"] = 5 },
+    LIMIT_PLANT_SEED = {},
 
     BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
     PLANT_EGGS = { "Fall Egg", "Enchanted Egg", "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Bee Egg", 
