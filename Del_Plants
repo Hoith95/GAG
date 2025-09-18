@@ -1,11 +1,53 @@
+-- Config
 _G.KeepAmount = {
-    ["Apple"] = 1
+    Bamboo = 4,
+    Coconut = 8,
+    Mushroom = 4,
+    Glowthorn = 4,
+    Tomato = 8,
+    Pumpkin = 4,
+    Pepper = 4,
+    Cacao = 8,
+    Apple = 8,
+    Romanesco = 4,
+    ["Elder Strawberry"] = 4,
+    ["Burning Bud"] = 4,
+    ["Giant Pinecone"] = 4,
+    Corn = 4,
+    ["Sugar Apple"] = 4,
+    ["Ember Lily"] = 4,
+    ["Dragon Fruit"] = 8,
+    Sunbulb = 8,
+    ["Orange Tulip"] = 4,
+    Blueberry = 8,
+    Watermelon = 4,
+    Mango = 8,
+    Cactus = 4,
+    Strawberry = 8,
+    Beanstalk = 4,
+    Lightshoot = 4,
+    Grape = 4,
+    Daffodil = 4
 }
-_G.Treelist = {}
-_G.Remove = true
-_G.MaxPlants = 168 -- nếu vượt số này thì bắt đầu xóa
 
-local player = game.Players.LocalPlayer
+_G.Treelist = {
+    "Moon Blossom",
+    "Bone Blossom",
+    "Moon Melon",
+    "Maple Apple",
+    "Moon Mango",
+    "Dragon Pepper",
+    "Elephant Ears",
+    "Fossilight",
+    "Princess Thorn"
+}
+
+_G.Remove = true
+_G.MaxPlants = 168
+
+local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local player = Players.LocalPlayer
 
 local function getOwnedPlot()
     for _, plot in pairs(workspace.Farm:GetChildren()) do
@@ -21,41 +63,51 @@ local function getOwnedPlot()
 end
 
 local function EquipShovel()
-    local shovel = player.Backpack and player.Backpack:FindFirstChild("Shovel [Destroy Plants]") 
-                or (player.Character and player.Character:FindFirstChild("Shovel [Destroy Plants]"))
-    if shovel and shovel.Parent ~= player.Character then
-        shovel.Parent = player.Character
+    local backpack = player:FindFirstChild("Backpack")
+    local character = player.Character
+    local shovel = nil
+    if backpack then
+        shovel = backpack:FindFirstChild("Shovel [Destroy Plants]") 
+    end
+    if not shovel and character then
+        shovel = character:FindFirstChild("Shovel [Destroy Plants]")
+    end
+    if shovel and character and shovel.Parent ~= character then
+        shovel.Parent = character
     end
 end
 
--- Kiểm tra tên cây có trong danh sách không (giữ nguyên cách bạn dùng string.match)
+-- Kiểm tra tên cây có trong Treelist (exact match)
 local function isInTreelist(treeName)
     for _, name in pairs(_G.Treelist) do
-        if string.match(treeName, name) then
+        if treeName == name then
             return true
         end
     end
     return false
 end
 
--- Đếm tổng cây và số từng loại (dựa trên keys trong _G.KeepAmount)
+-- Đếm tổng số cây trong plot (Model) và đếm từng loại theo exact-match với _G.KeepAmount
 local function countPlants(plot)
     local total = 0
-    local typeCounts = {} -- key: keepKey (tên trong _G.KeepAmount), value: số lượng
-    -- initialize counts for keys in KeepAmount
+    local typeCounts = {}
     for k, _ in pairs(_G.KeepAmount) do
         typeCounts[k] = 0
     end
 
-    local plantsFolder = plot and plot.Important and plot.Important:FindFirstChild("Plants_Physical")
-    if not plantsFolder then return 0, typeCounts end
+    if not plot or not plot:FindFirstChild("Important") then
+        return 0, typeCounts
+    end
+    local plantsFolder = plot.Important:FindFirstChild("Plants_Physical")
+    if not plantsFolder then
+        return 0, typeCounts
+    end
 
     for _, plant in pairs(plantsFolder:GetChildren()) do
         if plant:IsA("Model") then
             total = total + 1
-            -- tăng count cho loại nếu khớp key trong KeepAmount (dùng literal find để tránh pattern)
             for key, _ in pairs(_G.KeepAmount) do
-                if string.find(plant.Name, key, 1, true) then
+                if plant.Name == key then
                     typeCounts[key] = (typeCounts[key] or 0) + 1
                     break
                 end
@@ -71,7 +123,7 @@ local function DestroyTree()
     if processing then return end
     processing = true
 
-    local success, err = pcall(function()
+    local ok, err = pcall(function()
         if not _G.Remove then return end
 
         local plot = getOwnedPlot()
@@ -82,51 +134,44 @@ local function DestroyTree()
 
         local total, typeCounts = countPlants(plot)
         if total <= (_G.MaxPlants or 120) then
-            -- không cần xóa
             return
         end
 
         EquipShovel()
 
-        -- sẽ xóa từng cây nếu hợp lệ, dừng khi total == MaxPlants
         for _, plant in pairs(plantsFolder:GetChildren()) do
             if total <= (_G.MaxPlants or 120) then break end
-
-            if not plant:IsA("Model") then
-                -- skip
-            else
+            if plant:IsA("Model") then
                 local name = plant.Name
 
-                -- skip nếu nằm trong Treelist (không xóa)
                 if isInTreelist(name) then
-                    -- bỏ qua
+                    -- skip nếu nằm trong Treelist
                 else
-                    -- kiểm tra KeepAmount: tìm key tương ứng (nếu có)
                     local canDelete = true
                     local matchedKey = nil
-                    for key, keepNum in pairs(_G.KeepAmount) do
-                        if string.find(name, key, 1, true) then
-                            matchedKey = key
-                            local currentOfType = typeCounts[key] or 0
-                            if currentOfType <= keepNum then
-                                -- nếu xóa sẽ xuống dưới số cần giữ => không xóa
-                                canDelete = false
+                    if _G.KeepAmount then
+                        for key, keepNum in pairs(_G.KeepAmount) do
+                            if name == key then
+                                matchedKey = key
+                                local currentOfType = typeCounts[key] or 0
+                                if currentOfType <= keepNum then
+                                    canDelete = false
+                                end
+                                break
                             end
-                            break
                         end
                     end
 
                     if canDelete then
                         local part = plant.PrimaryPart or plant:FindFirstChildWhichIsA("BasePart")
                         if part then
-                            -- gửi request xóa
-                            game.ReplicatedStorage.GameEvents.Remove_Item:FireServer(part)
-                            task.wait(0.05) -- tránh spam
-                            -- cập nhật counters giả lập trên client để biết đã xóa 1 cây
+                            ReplicatedStorage.GameEvents.Remove_Item:FireServer(part)
                             total = total - 1
                             if matchedKey then
                                 typeCounts[matchedKey] = (typeCounts[matchedKey] or 1) - 1
                             end
+                            print("[AutoRemove] Removed:", name, " - remaining total:", total)
+                            task.wait(0.05)
                         end
                     end
                 end
@@ -134,7 +179,7 @@ local function DestroyTree()
         end
     end)
 
-    if not success then
+    if not ok then
         warn("Lỗi khi xóa cây: " .. tostring(err))
     end
 
