@@ -3,7 +3,7 @@ _G.KeepAmount = {
 }
 _G.Treelist = {}
 _G.Remove = true
-_G.MaxPlants = 120 -- nếu vượt số này thì bắt đầu xóa
+_G.MaxPlants = 168 -- nếu vượt số này thì bắt đầu xóa
 
 local player = game.Players.LocalPlayer
 
