@@ -141,6 +141,6 @@ local function DestroyTree()
     processing = false
 end
 
-while task.wait(3) do
+while task.wait(0.5) do
     DestroyTree()
 end
