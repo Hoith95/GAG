@@ -1,3 +1,4 @@
+wait(60)
 _G.KeepAmount = {
     Bamboo = 4,
     Coconut = 5,
@@ -181,6 +182,6 @@ local function DestroyTree()
 end
 
 -- vòng lặp định kỳ
-while task.wait(3) do
+while task.wait(0.5) do
     DestroyTree()
 end
