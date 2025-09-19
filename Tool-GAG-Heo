@@ -2,10 +2,6 @@ _G.script1Done = true
 _G.GAGDone1 = true
 
 spawn(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Hoith95/Pet-99/main/CPU-LOW"))()
-end)
-
-spawn(function()
     while true do
         wait(360)
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Hoith95/GAG/main/Remote-Heo"))()
