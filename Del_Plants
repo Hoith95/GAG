@@ -44,7 +44,7 @@ _G.Treelist = {
 
 _G.Remove = true
 _G.MaxPlants = 138
-local DEFAULT_KEEP = 1 -- số lượng giữ cho các loại KHÔNG nằm trong _G.KeepAmount
+local DEFAULT_KEEP = 2 -- số lượng giữ cho các loại KHÔNG nằm trong _G.KeepAmount
 
 local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
