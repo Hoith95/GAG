@@ -21,7 +21,7 @@ getgenv().gagConfig = {
     MAX_PLANTS = 138,
     DESTROY_UNTIL_MIN_PLANTS = 128,
     DELETE_PLANTS_AFTER_MAX = {},
-    LIMIT_PLANT_SEED = {},
+    LIMIT_PLANT_SEED = { ["Burning Bud"] = 2 },
 
     BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
     PLANT_EGGS = { "Fall Egg", "Enchanted Egg", "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Bee Egg", 
