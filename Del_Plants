@@ -181,6 +181,6 @@ local function DestroyTree()
 end
 
 -- vòng lặp định kỳ
-while task.wait(0.5) do
+while task.wait(3) do
     DestroyTree()
 end
