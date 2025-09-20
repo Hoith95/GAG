@@ -48,7 +48,6 @@ _G.KeepAmount = {
 }
 
 _G.Treelist = {
-    -- 5 loại đầu (bảo vệ toàn bộ)
     "Bone Blossom",
     "Candy Blossom",
     "Moon Melon",
