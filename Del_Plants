@@ -2,15 +2,30 @@ wait(60)
 _G.KeepAmount = {}
 
 _G.Treelist = {
-    "Moon Blossom",
     "Bone Blossom",
+    "Candy Blossom",
     "Moon Melon",
     "Maple Apple",
-    "Moon Mango",
+    "Cocomango",
+    "Maple Resin",
+    "Spiked Mango",
+    "Traveler's Fruit",
     "Dragon Pepper",
-    "Elephant Ears",
     "Fossilight",
-    "Princess Thorn"
+    "Elephant Ears",
+    "Giant Pinecone",
+    "Sugar Apple",
+    "Tranquil Bloom",
+    "Potato",
+    "Brussels Sprout",
+    "Moon Blossom",
+    "Golden Peach",
+    "Poseidon Plant",
+    "Hive Fruit",
+    "Beanstalk",
+    "Moon Mango",
+    "Mangrove",
+    "Elder Strawberry"
 }
 
 _G.Remove = true
