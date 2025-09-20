@@ -75,7 +75,7 @@ _G.Treelist = {
 }
 
 _G.Remove = true
-_G.MaxPlants = 1
+_G.MaxPlants = 168
 local DEFAULT_KEEP = 0
 
 local Players = game:GetService("Players")
