@@ -1,0 +1,36 @@
+if _G.SETTING then
+    return
+end
+_G.SETTING = true
+
+local args = {
+    [1] = "SetSetting",
+    [2] = "Audio",
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").GameEvents.SettingsService:FireServer(unpack(args))
+
+local args = {
+    [1] = "SetSetting",
+    [2] = "Music",
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").GameEvents.SettingsService:FireServer(unpack(args))
+
+local args = {
+    [1] = "SetSetting",
+    [2] = "Sounds",
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").GameEvents.SettingsService:FireServer(unpack(args))
+
+local args = {
+    [1] = "SetSetting",
+    [2] = "Tips",
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").GameEvents.SettingsService:FireServer(unpack(args))
