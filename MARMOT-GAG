@@ -32,7 +32,7 @@ getgenv().gagConfig = {
     ["Potato"] = 7,["Brussels Sprout"] = 5,["Moon Blossom"] = 5,["Golden Peach"] = 5,["Poseidon Plant"] = 5,["Hive Fruit"] = 5,
     ["Beanstalk"] = 5,["Moon Mango"] = 5,["Mangrove"] = 5,["Elder Strawberry"] = 5 },
 
-    BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
+    BUY_EGGS = { "Bug Egg", "Fall Egg", "Enchanted Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
     PLANT_EGGS = { "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Bee Egg", 
     "Night Egg", "Bug Egg", "Paradise Egg", "Mythical Egg", "Common Summer Egg", "Rare Summer Egg", "Rare Egg", },
 
