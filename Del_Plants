@@ -45,6 +45,15 @@ _G.KeepAmount = {
     ["Tall Asparagus"] = 2,
     ["Crown Melon"] = 2,
     Honeysuckle = 2
+    Cacao = 5,
+    Sunbulb = 5,
+    Mango = 5,
+    Coconut = 5,
+    Apple = 5,
+    ["Dragon Fruit"] = 5,
+    Tomato = 5,
+    Blueberry = 5,
+    Strawberry = 5,
 }
 
 _G.Treelist = {
