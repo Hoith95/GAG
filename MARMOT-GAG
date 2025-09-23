@@ -30,7 +30,8 @@ getgenv().gagConfig = {
     ["Tall Asparagus"] = 2,["Crown Melon"] = 2,["Honeysuckle"] = 2,["Maple Resin"] = 9,["Spiked Mango"] = 9,["Traveler's Fruit"] = 9,
     ["Dragon Pepper"] = 9,["Fossilight"] = 9,["Elephant Ears"] = 7,["Giant Pinecone"] = 7,["Sugar Apple"] = 7,["Tranquil Bloom"] = 7,
     ["Potato"] = 7,["Brussels Sprout"] = 5,["Moon Blossom"] = 5,["Golden Peach"] = 5,["Poseidon Plant"] = 5,["Hive Fruit"] = 5,
-    ["Beanstalk"] = 5,["Moon Mango"] = 5,["Mangrove"] = 5,["Elder Strawberry"] = 5 },
+    ["Beanstalk"] = 5,["Moon Mango"] = 5,["Mangrove"] = 5,["Elder Strawberry"] = 5,["Cacao"] = 5,["Sunbulb"] = 5,["Mango"] = 5,
+    ["Coconut"] = 5,["Dragon Fruit"] = 5,["Apple"] = 5,["Tomato"] = 5,["Blueberry"] = 5,["Strawberry"] = 5 },
 
     BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
     PLANT_EGGS = { "Bug Egg", "Paradise Egg", "Fall Egg", "Enchanted Egg", "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Bee Egg", 
@@ -40,8 +41,8 @@ getgenv().gagConfig = {
     "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Corn"] = 50, ["Tomato"] = 50, 
     ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
 
-    KEEP_SEEDS = { "Cactus", "Coconut", "Strawberry", "Mango", "Corn", "Glowthorn", "Briar Rose", "Carrot", "Rhubarb", "Calla Lily", "Flare Daisy", "Sunbulb",
-    "Daffodil", "Apple", "Cacao", "Blueberry", "Tomato", "Sugarglaze", "Pumpkin", "Emerald Bud", "Dragon Fruit", "Pepper", "Orange Tulip", "Grape", "Ember Lily",
+    KEEP_SEEDS = { "Cactus", "Corn", "Glowthorn", "Briar Rose", "Carrot", "Rhubarb", "Calla Lily", "Flare Daisy",
+    "Daffodil", "Sugarglaze", "Pumpkin", "Emerald Bud", "Pepper", "Orange Tulip", "Grape", "Ember Lily",
     "Mangosteen", "Crown of Thorns", "Watermelon", "Taco Fern", "Jalapeno", "Bamboo" },
     KEEP_SEEDS_AFTER_MAX_PLANTS = {},
 
