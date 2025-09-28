@@ -60,6 +60,18 @@ _G.KeepAmount = {
     ["Evo Blueberry I"] = 5,
     ["Evo Pumpkin I"] = 5,
     ["Evo Mushroom I"] = 5,
+    ["Evo Beetroot II"] = 5,
+    ["Evo Blueberry II"] = 5,
+    ["Evo Pumpkin II"] = 5,
+    ["Evo Mushroom II"] = 5,
+    ["Evo Beetroot III"] = 5,
+    ["Evo Blueberry III"] = 5,
+    ["Evo Pumpkin III"] = 5,
+    ["Evo Mushroom III"] = 5,
+    ["Evo Beetroot IV"] = 5,
+    ["Evo Blueberry IV"] = 5,
+    ["Evo Pumpkin IV"] = 5,
+    ["Evo Mushroom IV"] = 5,
 }
 
 _G.Treelist = {
