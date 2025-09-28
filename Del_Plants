@@ -54,6 +54,12 @@ _G.KeepAmount = {
     Tomato = 5,
     Blueberry = 5,
     Strawberry = 5,
+    ["Corpse Flower"] = 5,
+    ["Inferno Quince"] = 5,
+    ["Evo Beetroot I"] = 5,
+    ["Evo Blueberry I"] = 5,
+    ["Evo Pumpkin I"] = 5,
+    ["Evo Mushroom I"] = 5,
 }
 
 _G.Treelist = {
@@ -62,6 +68,7 @@ _G.Treelist = {
     "Moon Melon",
     "Maple Apple",
     "Cocomango",
+    "Crimson Thorn",
     ["Maple Resin"] = 9,
     ["Spiked Mango"] = 9,
     ["Traveler's Fruit"] = 9,
@@ -81,6 +88,7 @@ _G.Treelist = {
     ["Moon Mango"] = 5,
     ["Mangrove"] = 5,
     ["Elder Strawberry"] = 5
+    ["Multitrap"] = 5
 }
 
 _G.Remove = true
