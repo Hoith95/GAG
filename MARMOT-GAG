@@ -2,7 +2,6 @@ getgenv().gagConfig = {
     -- Event:
     GET_HONEY = false,
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg" },
-    BUY_EVENT_SHOP = { "Evo Beetroot I", "Evo Blueberry I", "Evo Pumpkin I", "Evo Mushroom I" },
 
     PLACE_COSMETIC = { "Cooking Kit" },
     PLANT_EVENT_TREES = false,
@@ -51,7 +50,7 @@ getgenv().gagConfig = {
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = { "Chinchilla", "Chubby Chipmunk", "Tiger", "Mizuchi", "Silver Dragonfly", "Red Panda", "Barn Owl", "Swan", "Space Squirrel", ["Marmot"] = 5, ["Sugar Glider"] = 5, "Phoenix", "Drake", "Wisp", "Luminous Sprite", "Cockatrice",
+    KEEP_PETS = { "Fortune Squirrel", "Chinchilla", "Chubby Chipmunk", "Tiger", "Mizuchi", "Silver Dragonfly", "Red Panda", "Barn Owl", "Swan", "Space Squirrel", ["Marmot"] = 5, ["Sugar Glider"] = 5, "Phoenix", "Drake", "Wisp", "Luminous Sprite", "Cockatrice",
     ["Glimmering Sprite"] = 5, "Gnome", "Griffin", "Golden Goose", "Spriggan", "Junkbot", "Gorilla Chef", "Lobster Thermidor", "French Fry Ferret", "Mochi Mouse",
     "Corrupted Kitsune", "Raiju", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Seal", "Fennec Fox", "Disco Bee",
     "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Pack Bee", "Petal Bee", "Bear Bee", "Hamster",
@@ -61,6 +60,7 @@ getgenv().gagConfig = {
     KEEP_PETS_AGE = 90,
 
     EQUIP_PETS = { 
+    ["Chubby Chipmunk"] = 1,
     ["Starfish"] = 2, 
     ["Capybara"] = 1, 
     ["Seal"] = 1, 
@@ -74,21 +74,20 @@ getgenv().gagConfig = {
     ["Red Panda"] = 1,
     ["Sugar Glider"] = 1,
     ["Marmot"] = 1,
-    ["Chubby Chipmunk"] = 1,
     },
 
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara", "Dog", "Bunny", "Gorilla Chef", "Spriggan", "Gnome", "Rooster", "Glimmering Sprite", "Space Squirrel",
     "Sugar Glider", "Marmot", "Red Panda" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish", "Dog", "Bunny", "Gorilla Chef", "Spriggan", "Gnome" },  -- Unequip from garden
 
-    BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket",
-    ["Harvest Tool"] = 10, ["Watering Can"] = 20 },
+    BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket", "Watering Can", 
+    "Levelup Lollipop" },
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Grandmaster Sprinkler" },
 
     PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1379102152995246183/gPq8eaiHkIpOynlBvcQaPaXa9sycucZJJSope7VrOVrzxfry2SEVmmXx6V3wj7HqoPaG",
     SEED_WEBHOOK_URL = "https://discord.com/api/webhooks/1402693135859056802/qTvkhz406qrR14x6Vr58YQPGLJ7ZRsaWqPioOCKXYeI1RFYYZeLtMUkQqBnvYnpnvBUs", 
 
-    NOTIFY_PETS = { "Tiger", "Mizuchi", "Swan", "Luminous Sprite", "Phoenix", "Cockatrice", "Griffin", "Golden Goose", "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", 
+    NOTIFY_PETS = { "Chinchilla", "Tiger", "Mizuchi", "Swan", "Luminous Sprite", "Phoenix", "Cockatrice", "Griffin", "Golden Goose", "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", 
     "Raiju", "Mizuchi", "Bald Eagle", "Koi", "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus",
     "Brontosaurus", "T-Rex", "Ankylosaurus", "Spinosaurus" },
     NOTIFY_PETS_WEIGHT = 7,
