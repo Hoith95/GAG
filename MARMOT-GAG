@@ -74,6 +74,7 @@ getgenv().gagConfig = {
     ["Red Panda"] = 1,
     ["Sugar Glider"] = 1,
     ["Marmot"] = 1,
+    ["Chubby Chipmunk"] = 1,
     },
 
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara", "Dog", "Bunny", "Gorilla Chef", "Spriggan", "Gnome", "Rooster", "Glimmering Sprite", "Space Squirrel",
