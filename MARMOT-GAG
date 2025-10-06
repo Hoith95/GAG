@@ -30,9 +30,7 @@ getgenv().gagConfig = {
     ["Potato"] = 7,["Brussels Sprout"] = 5,["Moon Blossom"] = 5,["Golden Peach"] = 5,["Poseidon Plant"] = 5,["Hive Fruit"] = 5,
     ["Beanstalk"] = 5,["Moon Mango"] = 5,["Mangrove"] = 5,["Elder Strawberry"] = 5,["Cacao"] = 5,["Sunbulb"] = 5,["Mango"] = 5,
     ["Coconut"] = 5,["Dragon Fruit"] = 5,["Apple"] = 5,["Tomato"] = 5,["Blueberry"] = 5,["Strawberry"] = 5,["Multitrap"] = 5,["Urchin Plant"] = 5,
-    ["Corpse Flower"] = 5,["Inferno Quince"] = 5,["Evo Beetroot I"] = 5,["Evo Blueberry I"] = 5,["Evo Pumpkin I"] = 5,["Evo Mushroom I"] = 5,
-    ["Evo Beetroot II"] = 5,["Evo Blueberry II"] = 5,["Evo Pumpkin II"] = 5,["Evo Mushroom II"] = 5,["Evo Beetroot III"] = 5,["Evo Blueberry III"] = 5,
-    ["Evo Pumpkin III"] = 5,["Evo Mushroom III"] = 5,["Evo Beetroot IV"] = 5,["Evo Blueberry IV"] = 5,["Evo Pumpkin IV"] = 5,["Evo Mushroom IV"] = 5 },
+    ["Corpse Flower"] = 5,["Inferno Quince"] = 5,["Evo Beetroot IV"] = 5,["Evo Blueberry IV"] = 5,["Evo Pumpkin IV"] = 5,["Evo Mushroom IV"] = 5 },
 
     BUY_EGGS = { "Jungle Egg", "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
     PLANT_EGGS = { "Jungle Egg", "Bug Egg", "Paradise Egg", "Fall Egg", "Enchanted Egg", "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Bee Egg", 
