@@ -2,7 +2,7 @@ getgenv().gagConfig = {
     -- Event:
     GET_HONEY = false,
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg" },
-    BUY_EVENT_SHOP = { "Spooky Egg", ["Ghost Bear"] = 8, "Reaper" },
+    BUY_EVENT_SHOP = { "Spooky Egg", ["Ghost Bear"] = 8, "Reaper" },
 
     PLACE_COSMETIC = { "Cooking Kit" },
     PLANT_EVENT_TREES = false,
@@ -34,7 +34,7 @@ getgenv().gagConfig = {
     ["Corpse Flower"] = 5,["Inferno Quince"] = 5,["Evo Beetroot IV"] = 5,["Evo Blueberry IV"] = 5,["Evo Pumpkin IV"] = 5,["Evo Mushroom IV"] = 5 },
 
     BUY_EGGS = { "Spooky Egg", "Jungle Egg", "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
-    PLANT_EGGS = { "Spooky Egg", "Bug Egg", "Jungle Egg", "Paradise Egg", "Fall Egg", "Enchanted Egg", "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Bee Egg", 
+    PLANT_EGGS = { "Jungle Egg", "Bug Egg", "Paradise Egg", "Fall Egg", "Enchanted Egg", "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Bee Egg", 
     "Night Egg", "Mythical Egg", "Common Summer Egg", "Rare Summer Egg", "Rare Egg", },
 
     BUY_SEED_SHOP = { "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango",
@@ -59,7 +59,7 @@ getgenv().gagConfig = {
     KEEP_PETS_AGE = 90,
 
     EQUIP_PETS = { 
-    ["Ghost Bear"] = 2
+    ["Ghost Bear"] = 2,
     ["Starfish"] = 2, 
     --["Capybara"] = 1, 
     ["Seal"] = 1, 
@@ -75,7 +75,7 @@ getgenv().gagConfig = {
 
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara", "Dog", "Bunny", "Gorilla Chef", "Spriggan", "Gnome", "Rooster", "Glimmering Sprite", "Space Squirrel",
     "Sugar Glider", "Marmot", "Red Panda" },
-    REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish", "Dog", "Bunny", "Gorilla Chef", "Spriggan", "Gnome", "Marmot", "Sugar Glider", "Chubby Chipmunk", "Capybara" },  -- Unequip from garden
+    REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish", "Dog", "Bunny", "Gorilla Chef", "Spriggan", "Gnome", "Marmot", "Sugar Glider", "Chubby Chipmunk", "Capybara" },
 
     BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket", "Watering Can", 
     "Levelup Lollipop" },
