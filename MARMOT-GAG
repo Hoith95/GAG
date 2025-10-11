@@ -2,7 +2,7 @@ getgenv().gagConfig = {
     -- Event:
     GET_HONEY = false,
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg" },
-    BUY_EVENT_SHOP = { "Spooky Egg", "Reaper" },
+    BUY_EVENT_SHOP = { "Spooky Egg", ["Ghost Bear"] = 8, "Reaper" },
 
     PLACE_COSMETIC = { "Cooking Kit" },
     PLANT_EVENT_TREES = false,
@@ -59,9 +59,9 @@ getgenv().gagConfig = {
     KEEP_PETS_AGE = 90,
 
     EQUIP_PETS = { 
-    ["Chubby Chipmunk"] = 1,
+    ["Ghost Bear"] = 2
     ["Starfish"] = 2, 
-    ["Capybara"] = 1, 
+    --["Capybara"] = 1, 
     ["Seal"] = 1, 
     ["Sunny-Side Chicken"] = 1,
     ["Bald Eagle"] = 1, 
@@ -75,7 +75,7 @@ getgenv().gagConfig = {
 
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara", "Dog", "Bunny", "Gorilla Chef", "Spriggan", "Gnome", "Rooster", "Glimmering Sprite", "Space Squirrel",
     "Sugar Glider", "Marmot", "Red Panda" },
-    REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish", "Dog", "Bunny", "Gorilla Chef", "Spriggan", "Gnome", "Marmot", "Sugar Glider" },  -- Unequip from garden
+    REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish", "Dog", "Bunny", "Gorilla Chef", "Spriggan", "Gnome", "Marmot", "Sugar Glider", "Chubby Chipmunk", "Capybara" },  -- Unequip from garden
 
     BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket", "Watering Can", 
     "Levelup Lollipop" },
