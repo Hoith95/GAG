@@ -49,7 +49,7 @@ getgenv().gagConfig = {
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = { "Headless Horseman", "Reaper", ["Ghost Bear"] = 8, "Fortune Squirrel", "Chinchilla", "Chubby Chipmunk", "Tiger", "Mizuchi", "Silver Dragonfly", "Red Panda", ["Barn Owl"] = 2, "Swan", ["Space Squirrel"] = 3, ["Marmot"] = 2, ["Sugar Glider"] = 2, "Phoenix", "Drake", "Wisp", "Luminous Sprite", "Cockatrice",
+    KEEP_PETS = { "Headless Horseman", "Reaper", ["Ghost Bear"] = 8, ["Fortune Squirrel"] = 2, "Chinchilla", "Chubby Chipmunk", "Tiger", "Mizuchi", "Silver Dragonfly", "Red Panda", ["Barn Owl"] = 2, "Swan", ["Space Squirrel"] = 3, ["Marmot"] = 2, ["Sugar Glider"] = 2, "Phoenix", "Drake", "Wisp", "Luminous Sprite", "Cockatrice",
     ["Glimmering Sprite"] = 2, "Gnome", "Griffin", "Golden Goose", "Spriggan", "Junkbot", "Gorilla Chef", "Lobster Thermidor", "French Fry Ferret", "Mochi Mouse",
     "Corrupted Kitsune", "Raiju", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Seal", "Fennec Fox", "Disco Bee",
     "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Pack Bee", "Petal Bee", "Bear Bee", "Hamster",
