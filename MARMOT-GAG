@@ -74,9 +74,9 @@ getgenv().gagConfig = {
     ["Chinchilla"] = 1,
     },
 
-    USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara", "Dog", "Bunny", "Gorilla Chef", "Spriggan", "Gnome", "Rooster", "Glimmering Sprite", "Space Squirrel",
+    USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara", "Gorilla Chef", "Spriggan", "Gnome", "Rooster", "Glimmering Sprite", "Space Squirrel",
     "Sugar Glider", "Marmot", "Red Panda", "Barn Owl", "Ghost Bear" },
-    REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish", "Gorilla Chef", "Spriggan", "Gnome", "Marmot", "Sugar Glider", "Chubby Chipmunk", "Capybara", ["Barn Owl" },
+    REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish", "Gorilla Chef", "Spriggan", "Gnome", "Marmot", "Sugar Glider", "Chubby Chipmunk", "Capybara", "Barn Owl" },
 
     BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket", "Watering Can", 
     "Levelup Lollipop" },
