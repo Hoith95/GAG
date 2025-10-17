@@ -34,40 +34,42 @@ getgenv().gagConfig = {
     ["Corpse Flower"] = 5,["Inferno Quince"] = 5,["Evo Beetroot IV"] = 5,["Evo Blueberry IV"] = 5,["Evo Pumpkin IV"] = 5,["Evo Mushroom IV"] = 5 },
 
     BUY_EGGS = { "Spooky Egg", "Jungle Egg", "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
-    PLANT_EGGS = { "Spooky Egg", "Bug Egg", "Jungle Egg", "Paradise Egg", "Fall Egg", "Enchanted Egg", "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Bee Egg", 
-    "Night Egg", "Mythical Egg", "Common Summer Egg", "Rare Summer Egg", "Rare Egg", },
+    PLANT_EGGS = { "Spooky Egg", "Bug Egg", "Jungle Egg", "Paradise Egg", "Fall Egg", "Enchanted Egg", "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", 
+    "Zen Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Bee Egg", "Night Egg", "Mythical Egg", "Common Summer Egg", "Rare Summer Egg", "Rare Egg", },
 
-    BUY_SEED_SHOP = { "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango",
-    "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Corn"] = 50, ["Tomato"] = 50, 
-    ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
+    BUY_SEED_SHOP = { "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao",
+    "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50,
+    ["Daffodil"] = 50, ["Corn"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
 
-    KEEP_SEEDS = { "Cactus", "Corn", "Glowthorn", "Briar Rose", "Carrot", "Rhubarb", "Calla Lily", "Flare Daisy",
-    "Daffodil", "Sugarglaze", "Pumpkin", "Emerald Bud", "Pepper", "Orange Tulip", "Grape", "Ember Lily",
-    "Mangosteen", "Crown of Thorns", "Watermelon", "Taco Fern", "Jalapeno", "Bamboo", "Sundew", "Black Bat Flower", "Mandrone Berry" },
+    KEEP_SEEDS = { "Cactus", "Corn", "Glowthorn", "Briar Rose", "Carrot", "Rhubarb", "Calla Lily", "Flare Daisy", "Daffodil", "Sugarglaze", "Pumpkin",
+    "Emerald Bud", "Pepper", "Orange Tulip", "Grape", "Ember Lily", "Mangosteen", "Crown of Thorns", "Watermelon", "Taco Fern", "Jalapeno", "Bamboo",
+    "Sundew", "Black Bat Flower", "Mandrone Berry" },
     KEEP_SEEDS_AFTER_MAX_PLANTS = {},
 
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = { "Headless Horseman", ["Reaper"] = 8, ["Ghost Bear"] = 8, ["Fortune Squirrel"] = 2, "Chinchilla", "Chubby Chipmunk", "Tiger", "Mizuchi", "Silver Dragonfly", "Red Panda", ["Barn Owl"] = 2, "Swan", ["Space Squirrel"] = 3, ["Marmot"] = 2, ["Sugar Glider"] = 2, "Phoenix", "Drake", "Wisp", "Luminous Sprite", "Cockatrice",
-    ["Glimmering Sprite"] = 2, "Gnome", "Griffin", "Golden Goose", "Spriggan", "Junkbot", "Gorilla Chef", "Lobster Thermidor", "French Fry Ferret", "Mochi Mouse",
-    "Corrupted Kitsune", "Raiju", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Seal", "Fennec Fox", "Disco Bee",
-    "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Pack Bee", "Petal Bee", "Bear Bee", "Hamster",
-    "Blood Owl", "Cooked Owl", "Golden Bee", "Owl", "Firefly", "Chicken Zombie", ["Kodama"] = 6, ["Corrupted Kodama"] = 6, ["Blood Kiwi"] = 2, ["Capybara"] = 1,
-    ["Starfish"] = 20, ["Rooster"] = 2, ["Tanchozuru"] = 5, ["Kappa"] = 5 },
+    KEEP_PETS = { "Headless Horseman", ["Reaper"] = 8, ["Ghost Bear"] = 8, ["Fortune Squirrel"] = 2, "Chinchilla", "Chubby Chipmunk", "Tiger", "Mizuchi",
+    "Silver Dragonfly", "Red Panda", ["Barn Owl"] = 2, "Swan", ["Space Squirrel"] = 3, ["Marmot"] = 2, ["Sugar Glider"] = 2, "Phoenix", "Drake", "Wisp",
+    "Luminous Sprite", "Cockatrice", ["Glimmering Sprite"] = 2, "Gnome", "Griffin", "Golden Goose", "Spriggan", "Junkbot", "Gorilla Chef", "Lobster Thermidor",
+    "French Fry Ferret", "Mochi Mouse", "Corrupted Kitsune", "Raiju", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus",
+    "T-Rex", "Seal", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw",
+    "Pack Bee", "Petal Bee", "Bear Bee", "Hamster", "Blood Owl", "Cooked Owl", "Golden Bee", "Owl", "Firefly", "Chicken Zombie", ["Kodama"] = 6,
+    ["Corrupted Kodama"] = 6, ["Blood Kiwi"] = 2, ["Capybara"] = 1, ["Starfish"] = 20, ["Rooster"] = 2, ["Tanchozuru"] = 5, ["Kappa"] = 5 },
     KEEP_PETS_WEIGHT = 5,
     KEEP_PETS_AGE = 90,
 
     EQUIP_PETS = { 
-    ["Ghost Bear"] = 3,
-    ["Starfish"] = 2, 
-    --["Capybara"] = 1, 
-    ["Seal"] = 1, 
+    -- Buff Egg
     ["Sunny-Side Chicken"] = 1,
     ["Chicken Zombie"] = 1,
+    ["Rooster"] = 1,
     ["Bald Eagle"] = 1, 
-    ["Rooster"] = 1, 
     ["Blood Kiwi"] = 1,
+    ["Seal"] = 1, 
+
+    -- Buff Mutation Event
+    ["Ghost Bear"] = 3,
     ["Glimmering Sprite"] = 1,
     --["Barn Owl"] = 1,
     ["Space Squirrel"] = 1,
@@ -76,11 +78,12 @@ getgenv().gagConfig = {
     ["Reaper"] = 1,
     },
 
-    USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara", "Gorilla Chef", "Spriggan", "Gnome", "Rooster", "Glimmering Sprite", "Space Squirrel",
-    "Sugar Glider", "Marmot", "Red Panda", "Barn Owl", "Ghost Bear" },
-    REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish", "Gorilla Chef", "Spriggan", "Gnome", "Marmot", "Sugar Glider", "Chubby Chipmunk", "Capybara", "Barn Owl", "Space Squirrel" },
+    USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara", "Gorilla Chef", "Spriggan", "Gnome", "Rooster", "Glimmering Sprite", "Space Squirrel", "Sugar Glider",
+    "Marmot", "Red Panda", "Barn Owl", "Ghost Bear" },
+    REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish", "Gorilla Chef", "Spriggan", "Gnome", "Marmot", "Sugar Glider", "Chubby Chipmunk", "Capybara",
+    "Barn Owl", "Space Squirrel" },
 
-    BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket", "Watering Can", 
+    BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket", "Watering Can",
     "Levelup Lollipop" },
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Grandmaster Sprinkler" },
 
@@ -96,8 +99,8 @@ getgenv().gagConfig = {
 
     KICK_AFTER_GIFT_PET = false,
     GIFT_USERNAME = { "ss1heo", "ss2heo", "ss3heo", "ss4heo", "ss5heo", "ss6heo", "ss7heo", "ss8heo", "ss9heo", "ss10heo", "ss12heo", "ss13heo", "ss14heo", "ss15heo" },
-    GIFT_PET = { "Phoenix", "Swan", "Luminous Sprite", "Cockatrice", "Griffin", "Golden Goose", "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Raiju",
-    "Mizuchi", "Bald Eagle", "Koi", "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Brontosaurus",
-    "T-Rex", "Ankylosaurus", "Spinosaurus" },
+    GIFT_PET = { "Phoenix", "Swan", "Luminous Sprite", "Cockatrice", "Griffin", "Golden Goose", "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune",
+    "Raiju", "Mizuchi", "Bald Eagle", "Koi", "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus",
+    "Brontosaurus", "T-Rex", "Ankylosaurus", "Spinosaurus" },
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/6cb882027ef5de19462b160764dcfb53.lua"))()
