@@ -4,6 +4,8 @@ getgenv().gagConfig = {
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg" },
     BUY_EVENT_SHOP = { "Spooky Egg", "Spooky Chest", ["Ghost Bear"] = 8, ["Reaper"] = 8 },
 
+    DISABLE_REAPER_EVENT = false
+
     PLACE_COSMETIC = { "Cooking Kit" },
     PLANT_EVENT_TREES = false,
 
