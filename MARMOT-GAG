@@ -2,7 +2,7 @@ getgenv().gagConfig = {
     -- Event:
     GET_HONEY = false,
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg" },
-    BUY_EVENT_SHOP = { "Spooky Egg", "Spooky Chest", ["Ghost Bear"] = 8, ["Reaper"] = 8 },
+    BUY_EVENT_SHOP = { "Spooky Chest", "Spooky Egg" },
 
     PLACE_COSMETIC = { "Cooking Kit" },
     PLANT_EVENT_TREES = false,
