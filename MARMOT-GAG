@@ -36,7 +36,7 @@ getgenv().gagConfig = {
     ["Corpse Flower"] = 5,["Inferno Quince"] = 5,["Evo Beetroot IV"] = 5,["Evo Blueberry IV"] = 5,["Evo Pumpkin IV"] = 5,["Evo Mushroom IV"] = 5 },
 
     BUY_EGGS = { "Spooky Egg", "Jungle Egg", "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
-    PLANT_EGGS = { "Spooky Egg", "Bug Egg", "Jungle Egg", "Paradise Egg", "Fall Egg", "Enchanted Egg", "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", 
+    PLANT_EGGS = { "Safari Egg", "Spooky Egg", "Bug Egg", "Jungle Egg", "Paradise Egg", "Fall Egg", "Enchanted Egg", "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", 
     "Zen Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Bee Egg", "Night Egg", "Mythical Egg", "Common Summer Egg", "Rare Summer Egg", "Rare Egg", },
 
     BUY_SEED_SHOP = { "Great Pumpkin", "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao",
