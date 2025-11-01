@@ -73,12 +73,12 @@ getgenv().gagConfig = {
     {"Seal", 1, 7},
 
     -- Buff Mutation Event
-    {"Ghost Bear", 2, 7},
     {"Chinchilla", 1, 8},
     {"Glimmering Sprite", 1, 9},
     {"Space Squirrel", 1, 10},
     {"Reaper", 1, 11},
     {"Red Panda", 1, 12},
+    {"Ghost Bear", 2, 13},
     },
 
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara", "Gorilla Chef", "Spriggan", "Gnome", "Rooster", "Glimmering Sprite", "Space Squirrel", "Sugar Glider",
