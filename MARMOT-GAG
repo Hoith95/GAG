@@ -58,7 +58,7 @@ getgenv().gagConfig = {
     "T-Rex", "Seal", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw",
     "Pack Bee", "Petal Bee", "Bear Bee", "Hamster", "Blood Owl", "Cooked Owl", "Golden Bee", "Owl", "Firefly", "Chicken Zombie", ["Kodama"] = 6,
     ["Corrupted Kodama"] = 6, ["Blood Kiwi"] = 2, ["Capybara"] = 1, ["Starfish"] = 20, ["Rooster"] = 2, ["Tanchozuru"] = 5, ["Kappa"] = 5, "Hex Serpent",
-    "Lich", "Mummy", "Wereplant"},
+    "Lich", "Mummy", "Wereplant", "Rhino", "Elephant", "Hydra"},
     KEEP_PETS_WEIGHT = 5,
     KEEP_PETS_AGE = 90,
 
@@ -69,10 +69,11 @@ getgenv().gagConfig = {
     {"Rooster", 1, 3},
     {"Bald Eagle", 1, 4},
     {"Blood Kiwi", 1, 5},
-    {"Seal", 1, 6},
+    {"Rhino", 1, 6},
+    {"Seal", 1, 7},
 
     -- Buff Mutation Event
-    {"Ghost Bear", 3, 7},
+    {"Ghost Bear", 2, 7},
     {"Chinchilla", 1, 8},
     {"Glimmering Sprite", 1, 9},
     {"Space Squirrel", 1, 10},
@@ -92,7 +93,7 @@ getgenv().gagConfig = {
     PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1379102152995246183/gPq8eaiHkIpOynlBvcQaPaXa9sycucZJJSope7VrOVrzxfry2SEVmmXx6V3wj7HqoPaG",
     SEED_WEBHOOK_URL = "https://discord.com/api/webhooks/1402693135859056802/qTvkhz406qrR14x6Vr58YQPGLJ7ZRsaWqPioOCKXYeI1RFYYZeLtMUkQqBnvYnpnvBUs", 
 
-    NOTIFY_PETS = { "Mummy" },
+    NOTIFY_PETS = { "Mummy", "Elephant", "Hydra" },
     NOTIFY_PETS_WEIGHT = 7,
     DISCORD_ID = "344054115539615745",
     WEBHOOK_NOTE = "PC HEO",
