@@ -61,7 +61,6 @@ getgenv().gagConfig = {
     "Lich", "Mummy", "Wereplant", "Rhino", "Elephant", "Hydra"},
 
     SELL_PETS_AGE = {"Marmot", "Barn Owl", "Tomb Marmot"}
-    REMOVE_PET_MAX_UPGRADE = {"Marmot", "Barn Owl", "Reaper", "Red Panda", "Hex Serpent"},
 
     KEEP_PETS_WEIGHT = 5,
     KEEP_PETS_AGE = 90,
