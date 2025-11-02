@@ -51,7 +51,7 @@ getgenv().gagConfig = {
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = { "Headless Horseman", ["Reaper"] = 8, ["Ghost Bear"] = 8, ["Fortune Squirrel"] = 2, "Chinchilla", "Chubby Chipmunk", "Tiger", "Mizuchi",
+    KEEP_PETS = { "Headless Horseman", ["Reaper"] = 2, ["Ghost Bear"] = 2, ["Fortune Squirrel"] = 2, "Chinchilla", "Chubby Chipmunk", "Tiger", "Mizuchi",
     "Silver Dragonfly", "Red Panda", ["Barn Owl"] = 2, "Swan", ["Space Squirrel"] = 3, ["Marmot"] = 2, ["Sugar Glider"] = 2, "Phoenix", "Drake", "Wisp",
     "Luminous Sprite", "Cockatrice", ["Glimmering Sprite"] = 2, "Gnome", "Griffin", "Golden Goose", "Spriggan", "Junkbot", "Gorilla Chef", "Lobster Thermidor",
     "French Fry Ferret", "Mochi Mouse", "Corrupted Kitsune", "Raiju", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus",
