@@ -60,8 +60,6 @@ getgenv().gagConfig = {
     ["Corrupted Kodama"] = 6, ["Blood Kiwi"] = 2, ["Capybara"] = 1, ["Starfish"] = 20, ["Rooster"] = 2, ["Tanchozuru"] = 5, ["Kappa"] = 5, "Hex Serpent",
     "Lich", "Mummy", "Wereplant", "Rhino", "Elephant", "Hydra"},
 
-    SELL_PETS_AGE = {"Marmot", "Barn Owl"}
-
     KEEP_PETS_WEIGHT = 5,
     KEEP_PETS_AGE = 90,
 
@@ -85,9 +83,9 @@ getgenv().gagConfig = {
     },
 
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara", "Gorilla Chef", "Spriggan", "Gnome", "Rooster", "Glimmering Sprite", "Space Squirrel", "Sugar Glider",
-    "Marmot", "Red Panda", "Barn Owl", "Ghost Bear" },
-    REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish", "Gorilla Chef", "Spriggan", "Gnome", "Marmot", "Sugar Glider", "Chubby Chipmunk", "Capybara",
-    "Barn Owl", "Space Squirrel" },
+    "Marmot", "Red Panda", "Ghost Bear" },
+    REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish", "Gorilla Chef", "Spriggan", "Gnome", "Sugar Glider", "Chubby Chipmunk", "Capybara",
+    "Space Squirrel" },
 
     BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket", "Watering Can",
     "Levelup Lollipop" },
