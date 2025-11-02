@@ -52,7 +52,7 @@ getgenv().gagConfig = {
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
     KEEP_PETS = { "Headless Horseman", ["Reaper"] = 2, ["Ghost Bear"] = 2, ["Fortune Squirrel"] = 2, "Chinchilla", "Chubby Chipmunk", "Tiger", "Mizuchi",
-    "Silver Dragonfly", "Red Panda", ["Barn Owl"] = 2, "Swan", ["Space Squirrel"] = 3, ["Marmot"] = 2, ["Sugar Glider"] = 2, "Phoenix", "Drake", "Wisp",
+    "Silver Dragonfly", "Red Panda", "Swan", ["Space Squirrel"] = 3, ["Sugar Glider"] = 2, "Phoenix", "Drake", "Wisp",
     "Luminous Sprite", "Cockatrice", ["Glimmering Sprite"] = 2, "Gnome", "Griffin", "Golden Goose", "Spriggan", "Junkbot", "Gorilla Chef", "Lobster Thermidor",
     "French Fry Ferret", "Mochi Mouse", "Corrupted Kitsune", "Raiju", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus",
     "T-Rex", "Seal", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw",
@@ -60,6 +60,7 @@ getgenv().gagConfig = {
     ["Corrupted Kodama"] = 6, ["Blood Kiwi"] = 2, ["Capybara"] = 1, ["Starfish"] = 20, ["Rooster"] = 2, ["Tanchozuru"] = 5, ["Kappa"] = 5, "Hex Serpent",
     "Lich", "Mummy", "Wereplant", "Rhino", "Elephant", "Hydra"},
 
+    SELL_PETS_AGE = {"Marmot", "Barn Owl", "Tomb Marmot"}
     REMOVE_PET_MAX_UPGRADE = {"Marmot", "Barn Owl", "Reaper", "Red Panda", "Hex Serpent"},
 
     KEEP_PETS_WEIGHT = 5,
