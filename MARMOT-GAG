@@ -2,7 +2,8 @@ getgenv().gagConfig = {
     -- Event:
     GET_HONEY = false,
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg" },
-    BUY_EVENT_SHOP = { "Safari Egg" },
+    BUY_EVENT_SHOP = { "Safari Egg", "Lion" },
+    SUBMIT_SAFARI_JOE_PET = {"Giraffe", "Zebra", "Oxpecker", "Bear Bee", "Honey Bee", "Bee", "Ostrich" },
 
     PLACE_COSMETIC = { "Cooking Kit" },
     PLANT_EVENT_TREES = false,
@@ -58,7 +59,7 @@ getgenv().gagConfig = {
     "T-Rex", "Seal", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw",
     "Pack Bee", "Petal Bee", "Bear Bee", "Hamster", "Blood Owl", "Cooked Owl", "Golden Bee", "Owl", "Firefly", "Chicken Zombie", ["Kodama"] = 6,
     ["Corrupted Kodama"] = 6, ["Blood Kiwi"] = 2, ["Capybara"] = 1, ["Starfish"] = 20, ["Rooster"] = 2, ["Tanchozuru"] = 5, ["Kappa"] = 5, "Hex Serpent",
-    "Lich", "Mummy", "Wereplant", ["Rhino"] = 2, "Elephant", "Hydra"},
+    "Lich", "Mummy", "Wereplant", ["Rhino"] = 2, "Elephant", "Hydra", "Lion"},
 
     KEEP_PETS_WEIGHT = 5,
     KEEP_PETS_AGE = 90,
@@ -94,7 +95,7 @@ getgenv().gagConfig = {
     PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1379102152995246183/gPq8eaiHkIpOynlBvcQaPaXa9sycucZJJSope7VrOVrzxfry2SEVmmXx6V3wj7HqoPaG",
     SEED_WEBHOOK_URL = "https://discord.com/api/webhooks/1402693135859056802/qTvkhz406qrR14x6Vr58YQPGLJ7ZRsaWqPioOCKXYeI1RFYYZeLtMUkQqBnvYnpnvBUs", 
 
-    NOTIFY_PETS = { "Mummy", "Elephant", "Hydra" },
+    NOTIFY_PETS = { "Lion", "Elephant", "Hydra" },
     NOTIFY_PETS_WEIGHT = 7,
     DISCORD_ID = "344054115539615745",
     WEBHOOK_NOTE = "PC HEO",
