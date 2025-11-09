@@ -1,0 +1,56 @@
+-- Ngăn chạy trùng
+if _G.HideAndShrinkPlants then return end
+_G.HideAndShrinkPlants = true
+
+-- Thư mục chứa tất cả farm con
+local FarmsRoot = workspace:WaitForChild("Farm")
+
+-- Kích thước cực nhỏ (ô vuông tí hon)
+local TINY_SIZE = Vector3.new(0.1, 0.1, 0.1)
+
+-- Hàm xử lý 1 object (model / part)
+local function shrinkAndHide(obj)
+    if obj:IsA("BasePart") then
+        -- Thu nhỏ
+        obj.Size = TINY_SIZE
+        -- Ẩn
+        obj.Transparency = 1
+        obj.CanCollide = false
+    end
+end
+
+-- Hàm xử lý 1 cây (model)
+local function processPlant(model)
+    for _, item in ipairs(model:GetDescendants()) do
+        shrinkAndHide(item)
+    end
+end
+
+-- Hàm xử lý 1 farm
+local function processFarm(farmFolder)
+    local important = farmFolder:FindFirstChild("Important")
+    if not important then return end
+
+    local plants = important:FindFirstChild("Plants_Physical")
+    if not plants then return end
+
+    -- Xử lý toàn bộ cây hiện có
+    for _, plant in ipairs(plants:GetChildren()) do
+        processPlant(plant)
+    end
+
+    -- Nếu cây mới xuất hiện → xử lý luôn
+    plants.ChildAdded:Connect(function(newPlant)
+        task.wait(0.1)
+        processPlant(newPlant)
+    end)
+end
+
+-- ✅ Quét tất cả các Farm con trong workspace.Farm
+for _, farm in ipairs(FarmsRoot:GetChildren()) do
+    if farm:IsA("Folder") and farm.Name == "Farm" then
+        processFarm(farm)
+    end
+end
+
+print("✅ Đã thu nhỏ & ẩn tất cả cây trong mọi Farm.")
