@@ -3,7 +3,3 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Hoith95/GAG/main/VAR-
 spawn(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Hoith95/GAG/main/VAR_SETTING"))()
 end)
-
-spawn(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Hoith95/Pet-99/main/HideAndShrinkPlants"))()
-end)
