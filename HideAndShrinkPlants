@@ -45,7 +45,7 @@ local function processFarmFolder(farmFolder)
 
     -- 3️⃣ ✅ Liên tục kiểm tra & khôi phục trạng thái ẩn + nhỏ
     task.spawn(function()
-        while task.wait(10) do
+        while task.wait(30) do
             for _, plant in ipairs(plantsFolder:GetChildren()) do
                 for _, obj in ipairs(plant:GetDescendants()) do
                     if obj:IsA("BasePart") then
