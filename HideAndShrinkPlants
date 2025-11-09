@@ -1,14 +1,9 @@
--- ✅ Ngăn script chạy trùng
-if _G.AutoHideShrinkPlants then return end
-_G.AutoHideShrinkPlants = true
+if _G.AutoHideShrinkPlantsPercent then return end
+_G.AutoHideShrinkPlantsPercent = true
 
--- ✅ Đường dẫn chứa toàn bộ các Farm con
 local FarmsRoot = workspace:WaitForChild("Farm")
-
--- ✅ Kích thước nhỏ xíu
 local TINY_SIZE = Vector3.new(0.1, 0.1, 0.1)
 
--- ✅ Hàm thu nhỏ & ẩn 1 part
 local function shrinkAndHidePart(part)
     if part:IsA("BasePart") then
         part.Size = TINY_SIZE
@@ -17,54 +12,68 @@ local function shrinkAndHidePart(part)
     end
 end
 
--- ✅ Hàm xử lý toàn bộ cây trong 1 model
-local function processPlantModel(model)
-    for _, obj in ipairs(model:GetDescendants()) do
+local function processPlant(plant)
+    for _, obj in ipairs(plant:GetDescendants()) do
         shrinkAndHidePart(obj)
     end
 end
 
--- ✅ Hàm áp dụng cho 1 Farm
-local function processFarmFolder(farmFolder)
+local function splitIntoThree(list)
+    local total = #list
+    local batchSize = math.ceil(total / 3)
+    return {
+        { unpack(list, 1, batchSize) },
+        { unpack(list, batchSize + 1, batchSize * 2) },
+        { unpack(list, batchSize * 2 + 1, total) },
+    }
+end
+
+local function getPlantsToFix(plantsFolder)
+    local needing = {}
+    for _, plant in ipairs(plantsFolder:GetChildren()) do
+        for _, obj in ipairs(plant:GetDescendants()) do
+            if obj:IsA("BasePart") then
+                if obj.Transparency < 1 or obj.Size ~= TINY_SIZE then
+                    table.insert(needing, plant)
+                    break
+                end
+            end
+        end
+    end
+    return needing
+end
+
+local function handleFarm(farmFolder)
     local important = farmFolder:FindFirstChild("Important")
     if not important then return end
-
     local plantsFolder = important:FindFirstChild("Plants_Physical")
     if not plantsFolder then return end
-
-    -- 1️⃣ Lần đầu xử lý tất cả cây sẵn có
     for _, plant in ipairs(plantsFolder:GetChildren()) do
-        processPlantModel(plant)
+        processPlant(plant)
     end
-
-    -- 2️⃣ Tự động xử lý cây mới xuất hiện
     plantsFolder.ChildAdded:Connect(function(newPlant)
         task.wait(0.1)
-        processPlantModel(newPlant)
+        processPlant(newPlant)
     end)
 
-    -- 3️⃣ ✅ Liên tục kiểm tra & khôi phục trạng thái ẩn + nhỏ
     task.spawn(function()
-        while task.wait(30) do
-            for _, plant in ipairs(plantsFolder:GetChildren()) do
-                for _, obj in ipairs(plant:GetDescendants()) do
-                    if obj:IsA("BasePart") then
-                        -- Nếu nó bị hiện lại hoặc to lên → chỉnh lại ngay
-                        if obj.Transparency < 1 or obj.Size ~= TINY_SIZE then
-                            shrinkAndHidePart(obj)
-                        end
+        while task.wait(5) do
+            local needFix = getPlantsToFix(plantsFolder)
+            if #needFix > 0 then
+                local batches = splitIntoThree(needFix)
+                for i = 1, #batches do
+                    for _, plant in ipairs(batches[i]) do
+                        processPlant(plant)
                     end
+                    task.wait(0.5)
                 end
             end
         end
     end)
 end
 
--- ✅ Dò tất cả farm có trong workspace.Farm
 for _, farm in ipairs(FarmsRoot:GetChildren()) do
     if farm:IsA("Folder") and farm.Name == "Farm" then
-        processFarmFolder(farm)
+        handleFarm(farm)
     end
 end
-
-print("✅ Đã bật chế độ ẨN + THU NHỎ + TỰ KIỂM TRA LIÊN TỤC cho toàn bộ Farm.")
