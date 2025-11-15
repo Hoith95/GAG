@@ -80,7 +80,7 @@ getgenv().gagConfig = {
     {"Space Squirrel", 1, 10},
     {"Reaper", 1, 11},
     {"Red Panda", 1, 12},
-    {"Ghost Bear", 2, 13},
+    {"Ghost Bear", 1, 13},
     },
 
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara", "Gorilla Chef", "Spriggan", "Gnome", "Rooster", "Glimmering Sprite", "Space Squirrel", "Sugar Glider",
