@@ -3,8 +3,9 @@ getgenv().gagConfig = {
     GET_HONEY = false,
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg" },
     BUY_EVENT_SHOP = { "Safari Egg", "Lion" },
-    SUBMIT_SAFARI_JOE_PET = {"Giraffe", "Zebra", "Oxpecker", "Bear Bee", "Honey Bee", "Ostrich" },
-    CRAFT_EVENT = { "Gem Egg", "Cheetah" },
+    SUBMIT_SAFARI_JOE_PET = {"Giraffe", "Zebra", "Oxpecker", "Bear Bee", "Honey Bee", "Ostrich", "Topaz Snail", "Amethyst Beetle", "Emerald Snake", 
+    "Trapdoor Spider", "Geode Turtle", "Termite"},
+    CRAFT_EVENT = { "Gem Egg" },
     IGNORE_SUBMIT_EVENT_FORGE = { "Gem Egg", "Coal" },
 
     PLACE_COSMETIC = { "Cooking Kit" },
@@ -61,7 +62,8 @@ getgenv().gagConfig = {
     "T-Rex", "Seal", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw",
     "Pack Bee", "Petal Bee", "Bear Bee", "Hamster", "Blood Owl", "Cooked Owl", "Golden Bee", "Owl", "Firefly", "Chicken Zombie", ["Kodama"] = 6,
     ["Corrupted Kodama"] = 6, ["Blood Kiwi"] = 2, ["Capybara"] = 1, ["Starfish"] = 20, ["Rooster"] = 2, ["Tanchozuru"] = 5, ["Kappa"] = 5, "Hex Serpent",
-    "Lich", "Mummy", "Wereplant", ["Rhino"] = 2, "Elephant", "Hydra", "Lion", ["Orange Tabby"] = 2, "Ruby Squid", "Diamond Panther", "Goblin Miner"},
+    "Lich", "Mummy", "Wereplant", ["Rhino"] = 2, "Elephant", "Hydra", "Lion", ["Orange Tabby"] = 2, "Ruby Squid", "Diamond Panther", "Goblin Miner",
+    ["Sapphire Macaw"] = 2},
 
     KEEP_PETS_WEIGHT = 5,
     KEEP_PETS_AGE = 90,
@@ -83,10 +85,11 @@ getgenv().gagConfig = {
     {"Reaper", 1, 11},
     {"Red Panda", 1, 12},
     {"Ghost Bear", 1, 13},
+    {"Sapphire Macaw", 1, 14},
     },
 
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara", "Gorilla Chef", "Spriggan", "Gnome", "Rooster", "Glimmering Sprite", "Space Squirrel", "Sugar Glider",
-    "Marmot", "Red Panda", "Ghost Bear" },
+    "Marmot", "Red Panda", "Ghost Bear", "Sapphire Macaw" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish", "Gorilla Chef", "Spriggan", "Gnome", "Sugar Glider", "Chubby Chipmunk", "Capybara",
     "Space Squirrel" },
 
