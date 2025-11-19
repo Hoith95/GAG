@@ -65,6 +65,9 @@ getgenv().gagConfig = {
     "Lich", "Mummy", "Wereplant", ["Rhino"] = 2, "Elephant", "Hydra", "Lion", ["Orange Tabby"] = 2, "Ruby Squid", "Diamond Panther", "Goblin Miner",
     ["Sapphire Macaw"] = 2},
 
+    SELL_PETS_WEIGHT = {"Barn Owl", "Ghost Bear"}
+    SELL_PETS_AGE = {"Barn Owl", "Ghost Bear"}
+
     KEEP_PETS_WEIGHT = 5,
     KEEP_PETS_AGE = 90,
 
