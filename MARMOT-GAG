@@ -60,12 +60,10 @@ getgenv().gagConfig = {
     "Luminous Sprite", "Cockatrice", ["Glimmering Sprite"] = 1, "Gnome", "Griffin", "Golden Goose", "Spriggan", "Junkbot", "Gorilla Chef", "Lobster Thermidor",
     "French Fry Ferret", "Mochi Mouse", "Corrupted Kitsune", "Raiju", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus",
     "T-Rex", "Seal", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw",
-    "Pack Bee", "Petal Bee", "Bear Bee", "Hamster", ["Blood Owl"] = 1 , "Cooked Owl", "Golden Bee", ["Owl"] = 2, "Firefly", "Chicken Zombie", ["Kodama"] = 6,
+    "Pack Bee", "Petal Bee", "Bear Bee", "Hamster", ["Blood Owl"] = 1 , "Cooked Owl", "Golden Bee", "Firefly", "Chicken Zombie", ["Kodama"] = 6,
     ["Corrupted Kodama"] = 6, ["Blood Kiwi"] = 2, ["Capybara"] = 1, ["Starfish"] = 20, ["Rooster"] = 2, ["Tanchozuru"] = 5, ["Kappa"] = 5, ["Hex Serpent"] = 2,
     "Lich", "Mummy", "Wereplant", ["Rhino"] = 2, "Elephant", "Hydra", "Lion", ["Orange Tabby"] = 2, "Ruby Squid", "Diamond Panther", "Goblin Miner",
     ["Sapphire Macaw"] = 2},
-
-    SELL_PETS_AGE = {"Barn Owl"}
 
     KEEP_PETS_WEIGHT = 5,
     KEEP_PETS_AGE = 90,
