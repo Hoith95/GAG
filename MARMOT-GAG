@@ -8,9 +8,9 @@ getgenv().gagConfig = {
     CRAFT_EVENT = { "Gem Egg" },
     IGNORE_SUBMIT_EVENT_FORGE = { "Gem Egg", "Coal", "Paradise Egg", "Safari Egg", "Bee Egg", "Spooky Egg", "Bug Egg", "Jungle Egg", "Fall Egg", "Enchanted Egg",
     "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Night Egg", "Mythical Egg",  "Rare Summer Egg",
-    "Common Summer Egg", "Rare Egg", "Uncommon Egg", "Common Egg" },
+    "Common Summer Egg", "Rare Egg" },
 
-    PLACE_COSMETIC = { "Cooking Kit" },
+    PLACE_COSMETIC = { "Cooking Kit", "Dig Trinket" },
     PLANT_EVENT_TREES = false,
 
     -- General:
@@ -65,7 +65,7 @@ getgenv().gagConfig = {
     "Pack Bee", "Petal Bee", "Bear Bee", "Hamster", ["Blood Owl"] = 1 , "Cooked Owl", "Golden Bee", "Firefly", "Chicken Zombie", ["Kodama"] = 6,
     ["Corrupted Kodama"] = 6, ["Blood Kiwi"] = 2, ["Capybara"] = 1, ["Starfish"] = 20, ["Rooster"] = 2, ["Tanchozuru"] = 5, ["Kappa"] = 5, ["Hex Serpent"] = 2,
     "Lich", "Mummy", "Wereplant", ["Rhino"] = 2, "Elephant", "Hydra", "Lion", ["Orange Tabby"] = 2, "Ruby Squid", "Diamond Panther", "Goblin Miner",
-    ["Sapphire Macaw"] = 2},
+    ["Sapphire Macaw"] = 2, "Smithing Dog"},
 
     KEEP_PETS_WEIGHT = 5,
     KEEP_PETS_AGE = 90,
@@ -92,8 +92,7 @@ getgenv().gagConfig = {
 
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara", "Gorilla Chef", "Spriggan", "Gnome", "Rooster", "Glimmering Sprite", "Space Squirrel", "Sugar Glider",
     "Marmot", "Red Panda", "Ghost Bear", "Sapphire Macaw" },
-    REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish", "Gorilla Chef", "Spriggan", "Gnome", "Sugar Glider", "Chubby Chipmunk", "Capybara",
-    "Space Squirrel" },
+    REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish", "Gorilla Chef", "Spriggan", "Gnome", "Sugar Glider", "Chubby Chipmunk", "Space Squirrel" },
 
     BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket", "Watering Can",
     "Levelup Lollipop" },
