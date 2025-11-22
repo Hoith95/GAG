@@ -89,6 +89,7 @@ getgenv().gagConfig = {
     {"Ghost Bear", 1, 13},
     {"Sapphire Macaw", 1, 14},
     },
+    EQUIP_PET_SHARD = {["Sunny-Side Chicken"] = "Nutty", ["Chicken Zombie"] = "Nutty", ["Rooster"] = "Nutty", ["Seal"] = "Nutty", ["Chinchilla"] = "Nutty"},
     LEVELUP_LOLLIPOP_MIN_LEVEL = 99,
 
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara", "Gorilla Chef", "Spriggan", "Gnome", "Rooster", "Glimmering Sprite", "Space Squirrel", "Sugar Glider",
