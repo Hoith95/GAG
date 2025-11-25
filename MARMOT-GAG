@@ -20,7 +20,7 @@ getgenv().gagConfig = {
     BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
 
     MAX_PLANTS = 168,
-    DESTROY_UNTIL_MIN_PLANTS = 168,
+    DESTROY_UNTIL_MIN_PLANTS = 138,
     LIMIT_PLANT_SEED = { ["Lily of the Valley"] = 2,["Lilac"] = 2,["Nectarine"] = 2,["Bitter Melon"] = 2,["Gleamroot"] = 2,["Serenity"] = 2,["Guanabana"] = 2,
     ["Grand Volcania"] = 2,["Rosy Delight"] = 2,["Parasol Flower"] = 2,["Canary Melon"] = 2,["Wispwing"] = 2,["Badlands Pepper"] = 2,["Nectar Thorn"] = 2,
     ["Amberheart"] = 2,["Romanesco"] = 2,["Amber Spine"] = 2,["Sunflower"] = 2,["Bendboo"] = 2,["Mushroom"] = 2,["Zen Rocks"] = 2,["Firefly Fern"] = 2,
