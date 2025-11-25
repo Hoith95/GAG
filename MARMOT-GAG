@@ -4,7 +4,7 @@ getgenv().gagConfig = {
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg" },
 
     PLACE_COSMETIC = { "Cooking Kit" },
-    PLANT_EVENT_TREES = false,
+    PLANT_EVENT_TREES = true,
 
     -- General:
     AUTO_UPDATE_RESTART = true,
