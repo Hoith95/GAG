@@ -3,10 +3,13 @@ getgenv().gagConfig = {
     GET_HONEY = false,
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg" },
 
-    PLACE_COSMETIC = { "Cooking Kit" },
     PLANT_EVENT_TREES = true,
+    MAX_PLANTS = 168,
+    DESTROY_UNTIL_MIN_PLANTS = 138,
     KEEP_SEEDS = { "Bone Blossom" },
     KEEP_SEEDS_AFTER_MAX_PLANTS = {},
+
+    PLACE_COSMETIC = { "Cooking Kit" },
 
     -- General:
     AUTO_UPDATE_RESTART = true,
@@ -20,9 +23,6 @@ getgenv().gagConfig = {
     COLLECT_FRUIT_PER_SECOND = 3,
 
     BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
-
-    MAX_PLANTS = 168,
-    DESTROY_UNTIL_MIN_PLANTS = 138,
 
     BUY_EGGS = { "Spooky Egg", "Jungle Egg", "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg", "Common Egg"},
     PLANT_EGGS = { "Gem Egg", "Paradise Egg", "Safari Egg", "Bee Egg", "Spooky Egg", "Bug Egg", "Jungle Egg", "Fall Egg", "Enchanted Egg", "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", 
